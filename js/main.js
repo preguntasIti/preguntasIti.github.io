@@ -10,7 +10,7 @@ Object.defineProperty(Array.prototype, "shuffle", {
 Object.defineProperty(Document.prototype, "play", {
   value: function () {
     const stack = Object.entries(data);
-    // stack.shuffle();
+    stack.shuffle();
     for (const [key, value] of stack) {
       let component = new Component(value);
       component.appendComponentToDOM();
