@@ -26,7 +26,7 @@ class Component {
                             </div>`;
   }
 
-  checkAnswere(answer, li) {
+  #checkAnswere(answer, li) {
     if (answer === this.answer) {
       li.style.color = "green";
       if (!this.check) {
@@ -52,7 +52,7 @@ class Component {
     );
 
     liArray.forEach((e, i) => {
-      e.addEventListener("click", this.checkAnswere.bind(this, i + 1, e));
+      e.addEventListener("click", this.#checkAnswere.bind(this, i + 1, e));
     });
   }
 }
