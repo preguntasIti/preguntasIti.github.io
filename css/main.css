@@ -1,7 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@600&family=Inconsolata:wght@700&display=swap");
 
+@counter-style repeating-emoji {
+  system: cyclic;
+  symbols: "\1F5FF""\1F4A3""\1F335""\1F33B";
+  suffix: " ";
+}
+
 * {
+  /* font-family: Inconsolata, monospace; */
   font-family: "IBM Plex Mono", monospace;
 }
 
@@ -19,7 +26,7 @@
 }
 
 .card {
-  padding: 0.5rem;
+  padding: 15px;
   margin: 20px;
   height: 100%;
   width: 100%;
@@ -32,7 +39,7 @@
 }
 
 .card ul {
-  list-style-type: none;
+  list-style-type: repeating-emoji;
 }
 
 .card ul li {
