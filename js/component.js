@@ -1,16 +1,13 @@
 class Component {
   constructor(object) {
-    this.data = object;
-    this.component = `<div class='card'>
-                            <h1>${object.title}</h1>
-                                <ul id='ul-${object.id}'>
-                                    <li class='option'>${object.first}</li>
-                                    <li class='option'>${object.second}</li>
-                                    <li class='option'>${object.third}</li>
-                                    <li class='option'>${object.fourth}</li>
-                                </ul>
-                            </div>`;
     this.check = false;
+    this.title = object.title;
+    this.id = object.id;
+    this.first = object.first;
+    this.second = object.second;
+    this.third = object.third;
+    this.fourth = object.fourth;
+    this.answer = object.answer;
   }
 
   getComponentData() {
@@ -18,11 +15,19 @@ class Component {
   }
 
   getComponent() {
-    return this.component;
+    return `<div class='card'>
+                            <h1>${this.title}</h1>
+                                <ul id='ul-${this.id}'>
+                                    <li class='option'>${this.first}</li>
+                                    <li class='option'>${this.second}</li>
+                                    <li class='option'>${this.third}</li>
+                                    <li class='option'>${this.fourth}</li>
+                                </ul>
+                            </div>`;
   }
 
-  checkAnswere(answere, li) {
-    if (answere === this.data.answere) {
+  checkAnswere(answer, li) {
+    if (answer === this.answer) {
       li.style.color = "green";
       if (!this.check) {
         document.getElementById("c-score").innerHTML =
@@ -30,7 +35,7 @@ class Component {
       }
     }
 
-    if (answere !== this.data.answere) {
+    if (answer !== this.answer) {
       li.style.color = "red";
       if (!this.check) {
         document.getElementById("i-score").innerHTML =
@@ -43,16 +48,11 @@ class Component {
 
   setCorrectTrigger() {
     const liArray = Array.from(
-      document.getElementById(`ul-${this.data.id}`).children
+      document.getElementById(`ul-${this.id}`).children
     );
 
     liArray.forEach((e, i) => {
       e.addEventListener("click", this.checkAnswere.bind(this, i + 1, e));
     });
-  }
-
-  appendComponentToDOM() {
-    const DOM = document.getElementById("card-wrapper");
-    DOM.insertAdjacentHTML("beforeend", this.component);
   }
 }

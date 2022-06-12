@@ -8,7 +8,7 @@ const data = {
     third:
       "Una aplicación de facturación, un cajero automático y un portal de comercio electrónico",
     fourth: "Un portal de comercio electrónico, un cajero y un data warehouse",
-    answere: 3,
+    answer: 3,
   },
   item2: {
     id: "2",
@@ -22,7 +22,7 @@ const data = {
       "Un pedido, una operación bancaria y una compra/venta de productos-servicios",
     fourth:
       "Un pedido, un análisis comparativo de ventas y una operación bancaria.",
-    answere: 3,
+    answer: 3,
   },
   item4: {
     id: "4",
@@ -33,7 +33,7 @@ const data = {
     third:
       "Distingue entre transacciones estratégicas, tácticas y operacionales según el departamento funcional donde ocurran",
     fourth: "Es el que da soporte a las transacciones decisionales",
-    answere: 1,
+    answer: 1,
   },
   item5: {
     id: "5",
@@ -44,7 +44,7 @@ const data = {
     third: "Es un tipo particular de acto jurídico",
     fourth:
       "Es la respuesta que da una persona u organismo al ser incitado o incentivado por algo",
-    answere: 1,
+    answer: 1,
   },
   item6: {
     id: "6",
@@ -58,7 +58,7 @@ const data = {
       "Un proceso en la base de datos que genera la ejecución de un disparador o trigger ",
     fourth:
       "Un proceso en la base de datos que genera el inicio de una operación ETL",
-    answere: 1,
+    answer: 1,
   },
   item7: {
     id: "7",
@@ -72,7 +72,7 @@ const data = {
       "Las transacciones de la BBDD sean atómicas y que haya un sistema de recuperación en caso de fallo delsistema",
     fourth:
       "Se conozcan las expectativas de otros usuarios, las características del SGBD y las operaciones y técnicas de administración del sistema",
-    answere: 2,
+    answer: 2,
   },
   item8: {
     id: "8",
@@ -86,7 +86,7 @@ const data = {
       "Las transacciones de la BBDD sean atómicas y que haya previsto un sistema de recuperación en caso de fallo del sistema",
     fourth:
       "Se conozcan las expectativas de los usuarios, las características del SGBD y las operaciones y técnicas de administración del sistema",
-    answere: 4,
+    answer: 4,
   },
   item9: {
     id: "9",
@@ -100,7 +100,7 @@ const data = {
       "Las transacciones de la BBDD sean atómicas y que haya previsto un sistema de recuperación en caso defallo del sistema",
     fourth:
       "Se conozcan las expectativas de los usuarios, las características del SGBD y las operaciones y técnicas de administración del sistema",
-    answere: 3,
+    answer: 3,
   },
   item10: {
     id: "10",
@@ -114,7 +114,7 @@ const data = {
       "Las transacciones de la BBDD sean atómicas y que haya un sistema de recuperación en caso de fallo del sistema",
     fourth:
       "Se conozcan las expectativas de otros usuarios, las características del SGBD y las operaciones y técnicas de administración del sistema",
-    answere: 1,
+    answer: 1,
   },
   item11: {
     id: "11",
@@ -125,7 +125,7 @@ const data = {
     third: "Una única tabla de datos normalizados y sin redundancias",
     fourth:
       "Una pareja de tablas relacionadas, una con datos de dimensiones y otra con datos para analizar",
-    answere: 1,
+    answer: 1,
   },
   item12: {
     id: "12",
@@ -136,7 +136,7 @@ const data = {
       "El área de dirección y en los niveles superiores del resto de áreas.",
     third: "Fundamentalmente en las áreas de Marketing y Finanzas",
     fourth: "Todas las áreas y niveles de la empresa",
-    answere: 4,
+    answer: 4,
   },
   item13: {
     id: "13",
@@ -148,7 +148,7 @@ const data = {
     third:
       "Las consultas de ambos sistemas podrán interferir creando estados inestables de la BD",
     fourth: "Algunas consultas pueden generar resultados incoherentes",
-    answere: 2,
+    answer: 2,
   },
   item14: {
     id: "14",
@@ -161,7 +161,7 @@ const data = {
       "Diseñar los productos y dirigir el proceso de elaboración de los mismos",
     fourth:
       "Gestionar la contabilidad en general, la fiscalidad y la financiación de la empresa",
-    answere: 1,
+    answer: 1,
   },
   item15: {
     id: "15",
@@ -174,7 +174,7 @@ const data = {
       "Diseñar los productos y dirigir el proceso de elaboración de los mismos",
     fourth:
       "Gestionar la contabilidad en general, la fiscalidad y la financiación de la empresa",
-    answere: 2,
+    answer: 2,
   },
   item16: {
     id: "16",
@@ -187,7 +187,7 @@ const data = {
       "Diseñar los artículos o servicios y dirigir el proceso de elaboración de los mismos",
     fourth:
       "Gestionar la contabilidad en general, la fiscalidad y la financiación de la empresa",
-    answere: 3,
+    answer: 3,
   },
   item17: {
     id: "17",
@@ -201,7 +201,7 @@ const data = {
       "Diseñar los artículos o servicios y dirigir el proceso de elaboración de los mismos",
     fourth:
       "Gestionar la contabilidad en general, la fiscalidad y la financiación de la empresa",
-    answere: 4,
+    answer: 4,
   },
   item18: {
     id: "18",
@@ -212,7 +212,7 @@ const data = {
     third: "No recopilan datos, solo los analizan",
     fourth:
       "Son complejos de manejar ya que las tareas rara vez son iguales o repetitivas",
-    answere: 1,
+    answer: 1,
   },
   item19: {
     id: "19",
@@ -224,7 +224,7 @@ const data = {
     third: "Son capaces de tomar decisiones de forma autónoma",
     fourth:
       "Suelen incluir funcionalidades de procesamiento de texto, hojas de cálculo, etc...",
-    answere: 1,
+    answer: 1,
   },
   item20: {
     id: "20",
@@ -237,7 +237,7 @@ const data = {
       "Puede ejecutar procesos de cálculo más o menos eficientes siempre que sean útiles",
     fourth:
       "La interfaz de usuario es un factor secundario, prima la capacidad analítica del sistema",
-    answere: 2,
+    answer: 2,
   },
   item21: {
     id: "21",
@@ -250,7 +250,7 @@ const data = {
       "Es un sistema de apoyo a las decisiones para gerentes de marketing y finanzas",
     fourth:
       "Es un sistema amigable de apoyo a la decisión para jefes de grupo del nivel táctico",
-    answere: 1,
+    answer: 1,
   },
   item22: {
     id: "22",
@@ -262,7 +262,7 @@ const data = {
     third: "Son capaces de tomar decisiones de forma autónoma",
     fourth:
       "Suelen incluir funcionalidades de procesamiento de texto, hojas de cálculo, etc...",
-    answere: 4,
+    answer: 4,
   },
   item23: {
     id: "23",
@@ -273,7 +273,7 @@ const data = {
       "Un gestor de páginas para crear específicamente portales de comercio electrónico",
     third: "Un sistema de cifrado y firma digital",
     fourth: "Una base de datos para una aplicación de gestión",
-    answere: 1,
+    answer: 1,
   },
   item24: {
     id: "24",
@@ -285,7 +285,7 @@ const data = {
     third: "La administración y gestión contable y de facturación",
     fourth:
       "Todo tipo de acciones encaminadas a mejorar el posicionamiento de la web de la empresa",
-    answere: 1,
+    answer: 1,
   },
   item25: {
     id: "25",
@@ -296,7 +296,7 @@ const data = {
     third:
       "Principalmente tareas contables y de facturación en el área de finanzas",
     fourth: "Principalmente tareas de gestión de recursos humanos",
-    answere: 1,
+    answer: 1,
   },
   item26: {
     id: "26",
@@ -308,7 +308,7 @@ const data = {
       "Gestionar el flujo de caja, relaciones con los bancos y la compra y venta de productos o servicios",
     fourth:
       "Gestionar el movimiento de clientes por las instalaciones en empresas de servicios",
-    answere: 1,
+    answer: 1,
   },
   item27: {
     id: "27",
@@ -319,8 +319,8 @@ const data = {
       "La actividad en redes sociales para promocionar una marca o producto",
     third:
       "Acciones encaminada a mejorar el posicionamiento de una web en buscadores",
-    fourth: "Diseñar sitios web amigables y usables que mejoren la experiencia del usaurio respecto de la competencia",
-    answere: 3,
+    fourth:
+      "Diseñar sitios web amigables y usables que mejoren la experiencia del usaurio respecto de la competencia",
+    answer: 3,
   },
 };
-

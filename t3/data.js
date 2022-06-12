@@ -9,7 +9,7 @@ const data = {
       "Un repositorio de datos que solo será distribuido si el volumen de datos almacenados fuera muy grande",
     fourth:
       "Un repositorio de datos redundante, copia idéntica de los datos transaccionales de la empresa",
-    answere: 1,
+    answer: 1,
   },
   item2: {
     id: "2",
@@ -21,7 +21,7 @@ const data = {
     third: "Distribuye mejor los datos por toda la organización",
     fourth:
       "Apenas requiere inversión ni formación por parte del personal ya que funciona como las aplicaciones de gestión convencionales",
-    answere: 2,
+    answer: 2,
   },
   item3: {
     id: "3",
@@ -34,7 +34,7 @@ const data = {
       "Una vista completa de los datos de la empresa lista para ser distribuida más ágilmente",
     fourth:
       "Una vista parcial de los datos de la empresa orientada a un área o tema concreto",
-    answere: 4,
+    answer: 4,
   },
   item4: {
     id: "4",
@@ -47,7 +47,7 @@ const data = {
       "Migrar datos, en general, de uno o varios orígenes a un destino concreto",
     fourth:
       "Migrar datos, particularmente de un origen con una estructura predefinida a un destino concreto",
-    answere: 3,
+    answer: 3,
   },
   item5: {
     id: "5",
@@ -60,7 +60,7 @@ const data = {
       "Los data marts de la empresa son independientes del almacén de datos",
     fourth:
       "El almacén de datos se diseña primero y a partir de él se crean los data marts",
-    answere: 2,
+    answer: 2,
   },
   item6: {
     id: "6",
@@ -73,7 +73,7 @@ const data = {
       "Sistemas de información antiguos que normalmente se desechan por haber quedado obsoletos",
     fourth:
       "Sistemas de información antiguos pero críticos, no se puede prescindir de ellos",
-    answere: 4,
+    answer: 4,
   },
   item7: {
     id: "7",
@@ -86,7 +86,7 @@ const data = {
       "Hay que preprocesar los datos en el origen para que el migrarlos tengan el formato correcto",
     fourth:
       "Hay que verificar que los datos de origen tienen la estructura y formatos esperados",
-    answere: 4,
+    answer: 4,
   },
   item8: {
     id: "8",
@@ -99,7 +99,7 @@ const data = {
       "Son las tablas de datos de destino donde se volcaran los datos finalmente",
     fourth:
       "Son ficheros con metainformación sobre las estructuras de datos de origen y destino",
-    answere: 2,
+    answer: 2,
   },
   item9: {
     id: "9",
@@ -111,7 +111,7 @@ const data = {
     third:
       "Se consideren los data marts existen en la organización y a que áreas pertenecen",
     fourth: "Se consideren los periodos de latencia en la transmisión de datos",
-    answere: 1,
+    answer: 1,
   },
   item10: {
     id: "10",
@@ -124,7 +124,7 @@ const data = {
       "En ELT la transformación es un proceso atómico mientras que en ETL no lo es",
     fourth:
       "En ELT la transformación se realiza al final en el destino mientras que en ETL se hace en un área intermedia",
-    answere: 4,
+    answer: 4,
   },
   item11: {
     id: "11",
@@ -137,7 +137,7 @@ const data = {
       "Son repositorios de datos con una estructura de los datos mucho más estricta que la de los data warehouse",
     fourth:
       "Son repositorios de datos para copias de seguridad de los datos operacionales",
-    answere: 2,
+    answer: 2,
   },
   item12: {
     id: "12",
@@ -149,7 +149,7 @@ const data = {
     third: "Los cambios sociales producidos por la Inteligencia Artificial",
     fourth:
       "Los cambios sociales producidos por los dispositivos 'smart' (teléfonos, relojes, etc.)",
-    answere: 1,
+    answer: 1,
   },
   item13: {
     id: "13",
@@ -159,7 +159,7 @@ const data = {
     second: "Sociedad del Conocimiento",
     third: "Sociedad Conectada",
     fourth: "Sociedad 2.0",
-    answere: 2,
+    answer: 2,
   },
   item14: {
     id: "14",
@@ -170,7 +170,7 @@ const data = {
     third: "Aprender genera nuevo conocimient",
     fourth:
       "Ambos conceptos son sinónimos y previos a la generación de información",
-    answere: 1,
+    answer: 1,
   },
   item15: {
     id: "15",
@@ -179,7 +179,7 @@ const data = {
     second: "Cuanto más involucrado está con el tema del que desea aprender",
     third: "Cuando su motivación por dicho tema es mayor",
     fourth: "Si parte de una base solida sobre dicho tema",
-    answere: 2,
+    answer: 2,
   },
   item16: {
     id: "16",
@@ -188,7 +188,7 @@ const data = {
     second: "Cuando lee libros y escucha charlas sobre ese tema",
     third: "Cuando enseña a otros sobre ese tema",
     fourth: "Si parte de una base solida sobre dicho tema",
-    answere: 3,
+    answer: 3,
   },
   item17: {
     id: "17",
@@ -200,7 +200,7 @@ const data = {
     third:
       "El individuo particular es cada vez más consciente de que hay muchas cosas que no sabe",
     fourth: "El individuo particular cada vez está mejor informado",
-    answere: 3,
+    answer: 3,
   },
   item18: {
     id: "18",
@@ -210,7 +210,7 @@ const data = {
     second: "Las personas están motivadas a estudiar y aprender más cosas",
     third: "Las personas viven con una incertidumbre que deben gestionar",
     fourth: "Las personas están cada vez mejor informadas",
-    answere: 3,
+    answer: 3,
   },
   item19: {
     id: "19",
@@ -223,7 +223,7 @@ const data = {
       "Pese a lo sofisticado de las técnicas analíticas de datos, su complejidad las aleja del público en general",
     fourth:
       "Pese a la amplia difusión de las TICs, existen muchas zonas geográficas en el planeta donde aun no han llegado",
-    answere: 1,
+    answer: 1,
   },
   item20: {
     id: "20",
@@ -234,7 +234,7 @@ const data = {
       "La complejidad creciente para manejar los dispositivos tecnológicos",
     third: "Los orígenes de datos e información son cada vez más numerosos",
     fourth: "Aumenta el número de cosas de las que no sabemos nada",
-    answere: 4,
+    answer: 4,
   },
   item21: {
     id: "21",
@@ -244,7 +244,7 @@ const data = {
     third: "Los orígenes de datos e información están cada vez más dispersos",
     fourth:
       "La complejidad creciente para manejar los dispositivos tecnológicos",
-    answere: 2,
+    answer: 2,
   },
   item22: {
     id: "22",
@@ -257,7 +257,7 @@ const data = {
       "Deseo de comprender el funcionamiento interno de los avances científico/técnicos complejos",
     fourth:
       "Desconocimiento que se tiene de los beneficios los avances científico/técnicos",
-    answere: 1,
+    answer: 1,
   },
   item23: {
     id: "23",
@@ -269,7 +269,7 @@ const data = {
       "El manejo de ciertas cosas o el aprendizaje de ciertos conceptos es difícil",
     fourth:
       "Solo los especialistas se aprovechan realmente del beneficio de las cosas",
-    answere: 1,
+    answer: 1,
   },
   item24: {
     id: "24",
@@ -280,7 +280,7 @@ const data = {
     second: "Las empresas producen cada vez más productos",
     third: "Los productos y servicios tienen siempre una calidad estándar",
     fourth: "El acceso al dicho conocimiento está democratizado",
-    answere: 1,
+    answer: 1,
   },
   item25: {
     id: "25",
@@ -294,7 +294,7 @@ const data = {
       "Acceso a la red y las TICs y formación o preparación para usar dichos medios",
     fourth:
       "Acceso a la red, disponibilidad de computación en la nube y formación o preparación para usar dichos medios",
-    answere: 3,
+    answer: 3,
   },
   item26: {
     id: "26",
@@ -303,7 +303,7 @@ const data = {
     second: "Aprender más",
     third: "Tomar decisiones",
     fourth: "Asegurar la calidad de los datos",
-    answere: 3,
+    answer: 3,
   },
   item27: {
     id: "27",
@@ -316,7 +316,7 @@ const data = {
     third: "El BE contendría las herramientas de consulta y el FE los procesos",
     fourth:
       "Los cubos OLAP y el Dataware House son el BE y los cuadros de mando el FE",
-    answere: 4,
+    answer: 4,
   },
   item28: {
     id: "28",
@@ -326,7 +326,7 @@ const data = {
     third: "Las estrategias planteadas por la gerencia para mejorar el negocio",
     fourth:
       "Los procesos de análisis que ayudan a generar información útil sobre el negocio",
-    answere: 1,
+    answer: 1,
   },
   item29: {
     id: "29",
@@ -337,7 +337,7 @@ const data = {
       "Identificar los mejores objetivos que se puede marcar la organización",
     third: "Conocer que acciones han sido las más beneficiosas en el pasado",
     fourth: "Manejar mejor los sistemas informáticos de gestión de la empresa",
-    answere: 1,
+    answer: 1,
   },
   item30: {
     id: "30",
@@ -348,7 +348,7 @@ const data = {
       "Identificar los mejores objetivos que se puede marcar la organización",
     third: "Conocer que acciones han sido las más beneficiosas en el pasado",
     fourth: "Manejar mejor los sistemas informáticos de gestión de la empresa",
-    answere: 1,
+    answer: 1,
   },
   item31: {
     id: "31",
@@ -358,7 +358,7 @@ const data = {
     third:
       "Una variable en función de la cual se estudia una métrica de interés",
     fourth: "Un KPI o key performance indicator",
-    answere: 2,
+    answer: 2,
   },
   item32: {
     id: "32",
@@ -370,7 +370,7 @@ const data = {
       "El conocimiento que genera es como una capa protectora para la organización que dispone de él",
     fourth:
       "Engloba un conjunto variado de conceptos, métodos y herramientas para tomar mejores decisiones",
-    answere: 4,
+    answer: 4,
   },
   item33: {
     id: "33",
@@ -380,7 +380,7 @@ const data = {
     second: "Capturar información y distribuirla",
     third: "Capturar información, distribuirla y validarla",
     fourth: "Capturar información, codificarla y distribuirla",
-    answere: 4,
+    answer: 4,
   },
   item34: {
     id: "34",
@@ -394,7 +394,7 @@ const data = {
       "El ratio entre el beneficio esperado y el beneficio real obtenido que, idealmente, en el medio plazo debería ser constante e igual a 1",
     fourth:
       "El ratio entre el beneficio esperado y el beneficio real obtenido que, idealmente, en el medio plazo debería ser decreciente",
-    answere: 1,
+    answer: 1,
   },
   item35: {
     id: "35",
@@ -403,7 +403,7 @@ const data = {
     second: "Mejorar la calidad de los datos",
     third: "Mejorar la planificación de la empresa",
     fourth: "Mejorar la posición competitiva",
-    answere: 3,
+    answer: 3,
   },
   item36: {
     id: "36",
@@ -412,7 +412,7 @@ const data = {
     second: "Mejorar la calidad de los datos",
     third: "Mejorar la planificación",
     fourth: "Mejorar la posición competitiva",
-    answere: 4,
+    answer: 4,
   },
   item37: {
     id: "37",
@@ -421,7 +421,7 @@ const data = {
     second: "Mejorar la calidad de los datos",
     third: "Mejorar la planificación",
     fourth: "Mejorar la posición competitiva",
-    answere: 1,
+    answer: 1,
   },
   item38: {
     id: "38",
@@ -433,7 +433,7 @@ const data = {
     third:
       "La responsabilidad de asegurar esa calidad recae fundamentalmente en los ejecutivos de la organización",
     fourth: "Es un problema estratégico que requiere de personal",
-    answere: 2,
+    answer: 2,
   },
   item39: {
     id: "39",
@@ -444,7 +444,7 @@ const data = {
     third:
       "Principalmente, las operaciones de transformación (aunque también pueden ser las de Extracción y/o Carga) se están haciendo mal",
     fourth: "Los datos se están introduciendo incorrectamente",
-    answere: 2,
+    answer: 2,
   },
   item40: {
     id: "40",
@@ -455,7 +455,7 @@ const data = {
     third:
       "Principalmente, las operaciones de transformación (aunque también pueden ser las de Extracción y/o Carga) se están haciendo mal",
     fourth: "Los datos se están introduciendo incorrectamente",
-    answere: 3,
+    answer: 3,
   },
   item41: {
     id: "41",
@@ -466,7 +466,7 @@ const data = {
     third:
       "Principalmente, las operaciones de transformación (aunque también pueden ser las de Extracción y/o Carga) se están haciendo mal",
     fourth: "Los datos se están introduciendo incorrectamente",
-    answere: 1,
+    answer: 1,
   },
   item42: {
     id: "42",
@@ -477,7 +477,7 @@ const data = {
     third:
       "Principalmente, las operaciones de transformación (aunque también pueden ser las de Extracción y/o Carga) se están haciendo mal",
     fourth: "Los datos se están introduciendo incorrectamente",
-    answere: 4,
+    answer: 4,
   },
   item43: {
     id: "43",
@@ -490,7 +490,7 @@ const data = {
       "El origen del error está en quien introduce los datos ne el sistemas",
     fourth:
       "No se puede hacer responsable de una mala decisión a quien la haya tomado en base a dicha información incorrecta",
-    answere: 4,
+    answer: 4,
   },
   item44: {
     id: "44",
@@ -501,7 +501,7 @@ const data = {
     second: "Por el coste de las malas decisiones tomadas",
     third: "Porque el sistema deja de usarse",
     fourth: "Porque asegurar la calidad de la información supone un gasto",
-    answere: 1,
+    answer: 1,
   },
   item45: {
     id: "45",
@@ -515,7 +515,7 @@ const data = {
       "Un sobre coste al asumir esos errores y la activación de protocolos de gestión de la calidad de los datos",
     fourth:
       "Un sobre coste al asumir esos errores y una perdida de tiempo al tratar de asegurar la veracidad de la información en el futuro",
-    answere: 1,
+    answer: 1,
   },
   item46: {
     id: "46",
@@ -528,7 +528,7 @@ const data = {
       "Hacer comprobaciones manuales, esporádicas y al azar para detectar posibles errores dispersos",
     fourth:
       "Hacer comprobaciones de los totales y comprobar si son o no correctos",
-    answere: 1,
+    answer: 1,
   },
   item47: {
     id: "47",
@@ -538,7 +538,7 @@ const data = {
       "Para comprobar si se están alcanzando los objetivos que se han establecido",
     third: "Para asegurar la calidad de los datos empresariales",
     fourth: "Para medir los tiempos de respuesta de las operaciones ETL",
-    answere: 2,
+    answer: 2,
   },
   item48: {
     id: "48",
@@ -549,7 +549,7 @@ const data = {
     third:
       "Una medida o indicador del nivel de calidad de los datos de la organización",
     fourth: "Una medida o indicador del funcionamiento del sistema de gestión",
-    answere: 1,
+    answer: 1,
   },
   item49: {
     id: "49",
@@ -559,7 +559,7 @@ const data = {
     third: "Ser un indicador del rendimiento de la competencia",
     fourth:
       "Ser un indicador del performance de sistema de información corporativo",
-    answere: 1,
+    answer: 1,
   },
   item50: {
     id: "50",
@@ -568,7 +568,7 @@ const data = {
     second: "Ser de interés para el nivel operativo de la organización",
     third: "Ser definido y calculado con una formula concreta",
     fourth: "Ser un indicador del performance de los procesos ETL",
-    answere: 3,
+    answer: 3,
   },
   item51: {
     id: "51",
@@ -577,7 +577,7 @@ const data = {
     second: "Ser de interés para el nivel operativo de la empresa",
     third: "Ser un indicador del performance de la competencia",
     fourth: "Ser una medición de una de las actividades críticas de la empresa",
-    answere: 4,
+    answer: 4,
   },
   item52: {
     id: "52",
@@ -587,7 +587,7 @@ const data = {
     second: "Minería de datos, cálculo matemático e Inteligencia Artificial",
     third: "Minería de datos, Inteligencia Artificial y Aprendizaje automático",
     fourth: "Minería de datos, Inteligencia Artificial y Business Intelligence",
-    answere: 3,
+    answer: 3,
   },
   item53: {
     id: "53",
@@ -596,7 +596,7 @@ const data = {
     second: "Agrupamiento y Asociación",
     third: "Clasificación y Regresión",
     fourth: "Regresión y Agrupamiento",
-    answere: 2,
+    answer: 2,
   },
   item54: {
     id: "54",
@@ -605,7 +605,7 @@ const data = {
     second: "Agrupamiento y Asociación",
     third: "Clasificación y Regresión",
     fourth: "Regresión y Agrupamiento",
-    answere: 2,
+    answer: 2,
   },
   item55: {
     id: "55",
@@ -616,7 +616,7 @@ const data = {
     third: "¿Cuando sucedieron las cosas? o ¿Quién hizo que sucedieran?",
     fourth:
       "¿Por qué suceden las cosas? o ¿Qué pasaría si el escenario fuera otro?",
-    answere: 4,
+    answer: 4,
   },
   item56: {
     id: "56",
@@ -628,7 +628,7 @@ const data = {
     third: "BI habla de 'qué pasará' y BA de 'qué pasó'",
     fourth:
       "BI plantea escenarios para proyectar posibles resultados y BA usa datos históricos para aprender de decisiones previas",
-    answere: 1,
+    answer: 1,
   },
   item57: {
     id: "57",
@@ -640,7 +640,7 @@ const data = {
       "Se centra en los análisis descriptivos, al contrario que el Business Intelligence que se centra en los predictivos",
     fourth:
       "Es un concepto más antiguo que el de Business Intelligence, y por tanto, más asentado",
-    answere: 1,
+    answer: 1,
   },
   item58: {
     id: "58",
@@ -653,7 +653,7 @@ const data = {
       "Identificando relaciones e inconsistencias entre las diversas fuentes de datos, gestionando los metadatos y empleando formatos como XML",
     fourth:
       "Empleando formatos como XML, Incorporando memorias caché y almacenes operacionales, y balanceando la latencia de los datos con los ciclos de decisión",
-    answere: 3,
+    answer: 3,
   },
   item59: {
     id: "59",
@@ -666,7 +666,7 @@ const data = {
       "Almacenando datos por niveles, gestionando los metadatos y externalizando la gestión de datos",
     fourth:
       "Incorporando memorias caché y almacenes operacionales, y balanceando la latencia de los datos con los ciclos de decisión",
-    answere: 4,
+    answer: 4,
   },
   item60: {
     id: "60",
@@ -679,6 +679,6 @@ const data = {
       "Almacenando datos por niveles, Descartando los datos fríos y externalizando la gestión de datos",
     fourth:
       "Incorporando memorias caché y almacenes operacionales y externalizando la gestión de dato",
-    answere: 1,
+    answer: 1,
   },
 };
