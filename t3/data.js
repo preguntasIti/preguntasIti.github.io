@@ -605,7 +605,7 @@ const data = {
     second: "Agrupamiento y Asociación",
     third: "Clasificación y Regresión",
     fourth: "Regresión y Agrupamiento",
-    answer: 2,
+    answer: 3,
   },
   item55: {
     id: "55",
