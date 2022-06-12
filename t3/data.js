@@ -7,7 +7,7 @@ const data = {
       "Un repositorio de datos distribuido para albergar toda la carga que sea necesaria",
     third:
       "Un repositorio de datos que solo será distribuido si el volumen de datos almacenados fuera muy grande",
-    forth:
+    fourth:
       "Un repositorio de datos redundante, copia idéntica de los datos transaccionales de la empresa",
     answere: 1,
   },
@@ -19,7 +19,7 @@ const data = {
     second:
       "Da soporte a los sistemas de información para la toma de decisiones",
     third: "Distribuye mejor los datos por toda la organización",
-    forth:
+    fourth:
       "Apenas requiere inversión ni formación por parte del personal ya que funciona como las aplicaciones de gestión convencionales",
     answere: 2,
   },
@@ -32,7 +32,7 @@ const data = {
       "Una vista completa de los datos de la empresa, encriptada y comprimida para que ocupe menos espacio",
     third:
       "Una vista completa de los datos de la empresa lista para ser distribuida más ágilmente",
-    forth:
+    fourth:
       "Una vista parcial de los datos de la empresa orientada a un área o tema concreto",
     answere: 4,
   },
@@ -45,7 +45,7 @@ const data = {
       "Migrar datos, en general, de un o varios orígenes para su distribución a múltiples destinos",
     third:
       "Migrar datos, en general, de uno o varios orígenes a un destino concreto",
-    forth:
+    fourth:
       "Migrar datos, particularmente de un origen con una estructura predefinida a un destino concreto",
     answere: 3,
   },
@@ -58,7 +58,7 @@ const data = {
       "El almacén de datos se construye uniendo todos los data marts de la empresa",
     third:
       "Los data marts de la empresa son independientes del almacén de datos",
-    forth:
+    fourth:
       "El almacén de datos se diseña primero y a partir de él se crean los data marts",
     answere: 2,
   },
@@ -71,7 +71,7 @@ const data = {
       "Sistemas de información antiguos y prescindibles, aunque interesantes para conocer la historia de la empresa",
     third:
       "Sistemas de información antiguos que normalmente se desechan por haber quedado obsoletos",
-    forth:
+    fourth:
       "Sistemas de información antiguos pero críticos, no se puede prescindir de ellos",
     answere: 4,
   },
@@ -84,7 +84,7 @@ const data = {
       "Hay que asegurarse de que la copia de seguridad de los datos de origen se ha realizado correctamente",
     third:
       "Hay que preprocesar los datos en el origen para que el migrarlos tengan el formato correcto",
-    forth:
+    fourth:
       "Hay que verificar que los datos de origen tienen la estructura y formatos esperados",
     answere: 4,
   },
@@ -97,7 +97,7 @@ const data = {
       "Son áreas de memoria temporales donde ejecutar las transformaciones antes de volcar los datos en el destino",
     third:
       "Son las tablas de datos de destino donde se volcaran los datos finalmente",
-    forth:
+    fourth:
       "Son ficheros con metainformación sobre las estructuras de datos de origen y destino",
     answere: 2,
   },
@@ -110,7 +110,7 @@ const data = {
       "Se consideren restricciones de formato, claves y/o triggers del origen",
     third:
       "Se consideren los data marts existen en la organización y a que áreas pertenecen",
-    forth: "Se consideren los periodos de latencia en la transmisión de datos",
+    fourth: "Se consideren los periodos de latencia en la transmisión de datos",
     answere: 1,
   },
   item10: {
@@ -122,7 +122,7 @@ const data = {
       "En ETL la extracción se lleva a cabo en orígenes de datos diversos y heterogéneos y en ELT se hace sobre orígenes de datos de igual estructura",
     third:
       "En ELT la transformación es un proceso atómico mientras que en ETL no lo es",
-    forth:
+    fourth:
       "En ELT la transformación se realiza al final en el destino mientras que en ETL se hace en un área intermedia",
     answere: 4,
   },
@@ -135,7 +135,7 @@ const data = {
       "Son repositorios de datos donde se hace una copia idéntica a los de origen",
     third:
       "Son repositorios de datos con una estructura de los datos mucho más estricta que la de los data warehouse",
-    forth:
+    fourth:
       "Son repositorios de datos para copias de seguridad de los datos operacionales",
     answere: 2,
   },
@@ -147,7 +147,7 @@ const data = {
     second:
       "Los cambios sociales producidos por los 'Influencers' de las redes sociales",
     third: "Los cambios sociales producidos por la Inteligencia Artificial",
-    forth:
+    fourth:
       "Los cambios sociales producidos por los dispositivos 'smart' (teléfonos, relojes, etc.)",
     answere: 1,
   },
@@ -158,7 +158,7 @@ const data = {
     first: "Sociedad Tecnolófica",
     second: "Sociedad del Conocimiento",
     third: "Sociedad Conectada",
-    forth: "Sociedad 2.0",
+    fourth: "Sociedad 2.0",
     answere: 2,
   },
   item14: {
@@ -168,7 +168,7 @@ const data = {
       "Se retroalimentan, Conocemos para aprender y al aprender obtenemos más conocimiento",
     second: "El conocimiento sirve para aprender",
     third: "Aprender genera nuevo conocimient",
-    forth:
+    fourth:
       "Ambos conceptos son sinónimos y previos a la generación de información",
     answere: 1,
   },
@@ -178,7 +178,7 @@ const data = {
     first: "Cuantos más libros lea sobre el tema del que se quiere aprender",
     second: "Cuanto más involucrado está con el tema del que desea aprender",
     third: "Cuando su motivación por dicho tema es mayor",
-    forth: "Si parte de una base solida sobre dicho tema",
+    fourth: "Si parte de una base solida sobre dicho tema",
     answere: 2,
   },
   item16: {
@@ -187,7 +187,7 @@ const data = {
     first: "Cuando habla, debate y discute sobre ese tema",
     second: "Cuando lee libros y escucha charlas sobre ese tema",
     third: "Cuando enseña a otros sobre ese tema",
-    forth: "Si parte de una base solida sobre dicho tema",
+    fourth: "Si parte de una base solida sobre dicho tema",
     answere: 3,
   },
   item17: {
@@ -586,7 +586,7 @@ const data = {
       "Minería de datos, Inteligencia Artificial, Aprendizaje automático y Business Intelligence",
     second: "Minería de datos, cálculo matemático e Inteligencia Artificial",
     third: "Minería de datos, Inteligencia Artificial y Aprendizaje automático",
-    forth: "Minería de datos, Inteligencia Artificial y Business Intelligence",
+    fourth: "Minería de datos, Inteligencia Artificial y Business Intelligence",
     answere: 3,
   },
   item53: {
@@ -595,7 +595,7 @@ const data = {
     first: "Asociación y Clasificación",
     second: "Agrupamiento y Asociación",
     third: "Clasificación y Regresión",
-    forth: "Regresión y Agrupamiento",
+    fourth: "Regresión y Agrupamiento",
     answere: 2,
   },
   item54: {
@@ -604,7 +604,7 @@ const data = {
     first: "Asociación y Clasificación",
     second: "Agrupamiento y Asociación",
     third: "Clasificación y Regresión",
-    forth: "Regresión y Agrupamiento",
+    fourth: "Regresión y Agrupamiento",
     answere: 2,
   },
   item55: {
@@ -614,7 +614,7 @@ const data = {
       "¿Qué pasaría si el escenario fuera otro? o ¿Cuando sucedieron las cosas?",
     second: "¿Qué ha sucedido? o ¿Por qué suceden las cosas?",
     third: "¿Cuando sucedieron las cosas? o ¿Quién hizo que sucedieran?",
-    forth:
+    fourth:
       "¿Por qué suceden las cosas? o ¿Qué pasaría si el escenario fuera otro?",
     answere: 4,
   },
@@ -626,7 +626,7 @@ const data = {
     second:
       "BI usa técnicas de análisis estadístico y BA Cubos OLAP y cuadros de mando",
     third: "BI habla de 'qué pasará' y BA de 'qué pasó'",
-    forth:
+    fourth:
       "BI plantea escenarios para proyectar posibles resultados y BA usa datos históricos para aprender de decisiones previas",
     answere: 1,
   },
@@ -638,7 +638,7 @@ const data = {
     second: "Es una disciplina totalmente distinta del Business Intelligence",
     third:
       "Se centra en los análisis descriptivos, al contrario que el Business Intelligence que se centra en los predictivos",
-    forth:
+    fourth:
       "Es un concepto más antiguo que el de Business Intelligence, y por tanto, más asentado",
     answere: 1,
   },

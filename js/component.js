@@ -7,7 +7,7 @@ class Component {
                                     <li class='option'>${object.first}</li>
                                     <li class='option'>${object.second}</li>
                                     <li class='option'>${object.third}</li>
-                                    <li class='option'>${object.forth}</li>
+                                    <li class='option'>${object.fourth}</li>
                                 </ul>
                             </div>`;
     this.check = false;
