@@ -26,7 +26,7 @@ const data = {
   },
   item4: {
     id: "4",
-    title: "El entorno de trabajo transaccional. . .",
+    title: "El entorno de trabajo transaccional",
     first:
       "Es donde se registran todas las transacciones que ocurren en una empresa u organismo",
     second: "Se encarga de generar nuevas transacciones decisionales",
@@ -38,7 +38,7 @@ const data = {
   item5: {
     id: "5",
     title:
-      "En economía y finanzas, y en general, en el mundo empresarial, una transacción es. . .",
+      "En economía y finanzas, y en general, en el mundo empresarial, una transacción es",
     first: "Una operación de Compra/Venta",
     second: "Un intercambio de estímulos entre indivíduos",
     third: "Es un tipo particular de acto jurídico",
@@ -48,8 +48,7 @@ const data = {
   },
   item6: {
     id: "6",
-    title:
-      "En el ámbito de los sistemas de información una transacción es. . .",
+    title: "En el ámbito de los sistemas de información una transacción es",
     first:
       "Cualquier operación que suponga un cambio en el estado del sistema de la que podamos tomar nota",
     second:
@@ -63,7 +62,7 @@ const data = {
   item7: {
     id: "7",
     title:
-      "Desde el punto de vista de un ADMINISTRADOR de un sistema OLTP es importante que. . .",
+      "Desde el punto de vista de un ADMINISTRADOR de un sistema OLTP es importante que",
     first:
       "Funcione continua e ininterrumpidamente (a veces 24x7) estando el servicio disponible y con un buen nivel de calidad",
     second:
@@ -77,7 +76,7 @@ const data = {
   item8: {
     id: "8",
     title:
-      "Desde el punto de vista de un DESARROLLADOR de un sistema OLTP es importante que. . .",
+      "Desde el punto de vista de un DESARROLLADOR de un sistema OLTP es importante que",
     first:
       "Funcione continua e ininterrumpidamente (a veces 24x7) estando el servicio disponible y con un buen nivel de calidad",
     second:
@@ -91,7 +90,7 @@ const data = {
   item9: {
     id: "9",
     title:
-      "Desde el punto de vista de un PROVEEDOR DE SGBD de un sistema OLTP es importante que. . .        ",
+      "Desde el punto de vista de un PROVEEDOR DE SGBD de un sistema OLTP es importante que",
     first:
       "Funcione continua e ininterrumpidamente (a veces 24x7) estando el servicio disponible y con un buen nivel de calidad",
     second:
@@ -105,7 +104,7 @@ const data = {
   item10: {
     id: "10",
     title:
-      "Desde el punto de vista de un USUARIO de un sistema OLTP es importante que. .",
+      "Desde el punto de vista de un USUARIO de un sistema OLTP es importante que",
     first:
       "Funcione continua e ininterrumpidamente (a veces 24x7) estando el servicio disponible y con un buen nivel de calidad",
     second:
@@ -130,7 +129,7 @@ const data = {
   item12: {
     id: "12",
     title:
-      "La toma de decisiones (entorno decisional) se realiza sobre todo en . . .",
+      "La toma de decisiones (entorno decisional) se realiza sobre todo en",
     first: "El área de dirección",
     second:
       "El área de dirección y en los niveles superiores del resto de áreas.",
@@ -141,7 +140,7 @@ const data = {
   item13: {
     id: "13",
     title:
-      "Instalar dos sistemas, OLTP y OLAP, sobre la misma base de datos (BD) implica que...",
+      "Instalar dos sistemas, OLTP y OLAP, sobre la misma base de datos (BD) implica que",
     first: "No será posible ejecutar transacciones atómicas",
     second:
       "El motor de la base de datos se puede saturar al ser atacado por ambos sistemas",
@@ -152,7 +151,7 @@ const data = {
   },
   item14: {
     id: "14",
-    title: "La función de DIRECCIÓN dentro de una empresa consiste en. . .",
+    title: "La función de DIRECCIÓN dentro de una empresa consiste en",
     first:
       "Definir los objetivos y la organización de la entidad a corto, medio y largo plazo",
     second:
@@ -165,7 +164,7 @@ const data = {
   },
   item15: {
     id: "15",
-    title: "La función de MARKETING dentro de una empresa consiste en. . .",
+    title: "La función de MARKETING dentro de una empresa consiste en",
     first:
       "Definir los objetivos y la organización de la entidad a corto, medio y largo plazo",
     second:
@@ -178,7 +177,7 @@ const data = {
   },
   item16: {
     id: "16",
-    title: "La función de PRODUCCIÓN dentro de una empresa consiste en. . .",
+    title: "La función de PRODUCCIÓN dentro de una empresa consiste en",
     first:
       "Definir los objetivos y la organización de la entidad a corto, medio y largo plazo",
     second:
@@ -191,8 +190,7 @@ const data = {
   },
   item17: {
     id: "17",
-    title:
-      "La función del área de FINANZAS dentro de una empresa consiste en. . .",
+    title: "La función del área de FINANZAS dentro de una empresa consiste en",
     first:
       "Definir los objetivos y la organización de la entidad a corto, medio y largo plazo",
     second:
@@ -206,7 +204,7 @@ const data = {
   item18: {
     id: "18",
     title:
-      "Sobre los sistemas de información de tipo TPS (y Bach) se puede decir que. . .",
+      "Sobre los sistemas de información de tipo TPS (y Bach) se puede decir que",
     first: "Son los más antiguos, los primeros en aparecer",
     second: "Apoyan de manera idónea el proceso de toma de decisiones",
     third: "No recopilan datos, solo los analizan",
@@ -216,7 +214,7 @@ const data = {
   },
   item19: {
     id: "19",
-    title: "Un sistema de información de tipo MIS. . .",
+    title: "Un sistema de información de tipo MIS",
     first:
       "Incluye una nueva funcionalidad analítica que da soporte a los niveles Táctico y Estratégico de la empresa",
     second:
@@ -229,7 +227,7 @@ const data = {
   item20: {
     id: "20",
     title:
-      "Sobre el concepto de interactividad en Sistemas de Apoyo a la Decisión (DSS) . . .",
+      "Sobre el concepto de interactividad en Sistemas de Apoyo a la Decisión (DSS)",
     first:
       "El sistema debe ser muy amigable para que pueda ser utilizado por usuarios no expertos",
     second: "Exige que el sistema de respuestas en tiempo real",
@@ -254,7 +252,7 @@ const data = {
   },
   item22: {
     id: "22",
-    title: "Un sistema de información de tipo OAS. . .",
+    title: "Un sistema de información de tipo OAS",
     first:
       "Incluye una nueva funcionalidad analítica que da soporte a los niveles Táctico y Estratégico de la empresa",
     second:
@@ -277,7 +275,7 @@ const data = {
   },
   item24: {
     id: "24",
-    title: "El concepto CRM se refiere a. . .",
+    title: "El concepto CRM se refiere a",
     first:
       "Todo tipo de estrategias para gestionar y mejorar las relaciones entre una empresa y sus clientes",
     second:
@@ -300,7 +298,7 @@ const data = {
   },
   item26: {
     id: "26",
-    title: "Una aplicación de tipo SCM se encarga de. . .",
+    title: "Una aplicación de tipo SCM se encarga de",
     first:
       "Gestionar el tránsito de todos los bienes de una empresa, tanto la entrada de materias primas como la salida de productos acabados para la vent",
     second: "Gestionar en inventario de un almacen",

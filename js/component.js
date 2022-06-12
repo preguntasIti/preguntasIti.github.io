@@ -18,17 +18,18 @@ class Component {
     return `<div class='card'>
                             <h1>${this.title}</h1>
                                 <ul id='ul-${this.id}'>
-                                    <li class='option'>${this.first}</li>
-                                    <li class='option'>${this.second}</li>
-                                    <li class='option'>${this.third}</li>
-                                    <li class='option'>${this.fourth}</li>
+                                    <li class='option'><p>${this.first}</p></li>
+                                    <li class='option'><p>${this.second}</p></li>
+                                    <li class='option'><p>${this.third}</p></li>
+                                    <li class='option'><p>${this.fourth}</p></li>
                                 </ul>
                             </div>`;
   }
 
   #checkAnswere(answer, li) {
     if (answer === this.answer) {
-      li.style.color = "green";
+      li.style.textDecoration = "underline";
+      li.style.backgroundColor = "#3dfc89";
       if (!this.check) {
         document.getElementById("c-score").innerHTML =
           parseInt(document.getElementById("c-score").innerHTML) + 1;
@@ -36,7 +37,7 @@ class Component {
     }
 
     if (answer !== this.answer) {
-      li.style.color = "red";
+      li.style.textDecoration = "line-through";
       if (!this.check) {
         document.getElementById("i-score").innerHTML =
           parseInt(document.getElementById("i-score").innerHTML) + 1;
