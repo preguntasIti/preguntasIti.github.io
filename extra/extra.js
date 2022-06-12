@@ -1,7 +1,7 @@
 const data = {
   item1: {
     id: "1",
-    title: "Una característica del proceso ELT frente es que",
+    title: "Una característica del proceso ELT frente a ETL es que",
     first:
       "Las operaciones de transformación son más sencillas con ELT que con ETL",
     second: "En el proceso ETL los datos se cargan antes en el destino",
