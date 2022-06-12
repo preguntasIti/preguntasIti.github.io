@@ -319,7 +319,7 @@ const data = {
       "La actividad en redes sociales para promocionar una marca o producto",
     third:
       "Acciones encaminada a mejorar el posicionamiento de una web en buscadores",
-    fourth: "Comeme los cojones",
+    fourth: "Diseñar sitios web amigables y usables que mejoren la experiencia del usaurio respecto de la competencia",
     answere: 3,
   },
 };
